@@ -1,0 +1,11 @@
+name: learn-github
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "First Pipeline"
